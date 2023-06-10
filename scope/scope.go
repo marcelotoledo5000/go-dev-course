@@ -1,4 +1,4 @@
-package main
+package scope
 
 import "fmt"
 
@@ -8,6 +8,6 @@ var z string = "Hello"
 // 	printZ()
 // }
 
-func printZ() {
+func PrintZ() { // function exported
 	fmt.Println(z)
 }

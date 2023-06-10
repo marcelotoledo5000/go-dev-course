@@ -1,18 +1,18 @@
-package main
+package scope
 
 import "fmt"
 
-var y int = 20
+var Y int = 20
 
-func main() {
-	x := 10
-	fmt.Println(x)
-	fmt.Println(y * x)
-	printNum()
-	fmt.Println(z)
-	printZ()
-}
+// func main() {
+// 	x := 10
+// 	fmt.Println(x)
+// 	fmt.Println(y * x)
+// 	printNum()
+// 	fmt.Println(z)
+// 	printZ()
+// }
 
-func printNum() {
-	fmt.Println(y)
+func PrintNum() {
+	fmt.Println(Y)
 }
