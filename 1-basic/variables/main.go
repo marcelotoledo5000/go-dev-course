@@ -7,6 +7,13 @@ import "fmt"
 
 // var txt, other string = "Hello", "World"
 
+const (
+	aa        = 55
+	bb int    = 66
+	Cc string = "abc"
+)
+const xvz int = 1234
+
 func main() {
 	a := 10
 	b := "Hello"
@@ -14,6 +21,8 @@ func main() {
 	d := false
 	e := 'W'
 	f := `Uouuu`
+
+	const xpto = "ABC"
 
 	fmt.Printf("Current Values: \n")
 	fmt.Printf("%v \n", a)
